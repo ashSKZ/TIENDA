@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.4em;
+    color:#fda5e1 ;
+}
+
+h3 {
+    font-size: 0.8em;
+}
+
+h4 {
+    font-size: 0.9em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.icono {
+    font-size: 10%;
+    color: #f5dee8;
+}
+
+header .cabeza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 6px 6px;
+    width: 100%;
+    background-color: #c61075;
+}
+
+header .cabezaArriba {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+header .nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fda5e1;
+}
+
+header .extras {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}

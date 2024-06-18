@@ -1,0 +1,75 @@
+
+.hero {
+    padding:4% 10%;
+    text-align: end;
+    background-image: linear-gradient(
+        0deg,
+        rgba(55, 5, 38, 0.4),
+        rgba(55, 5, 38, 0.4)
+    ), url('media/heroDulces.jpg');
+}
+
+.hero h4{
+    color:#ffd1f0 ;
+}
+.galeriaTotal {
+    background-color: #fda5e1;
+    text-align: center;
+}
+
+.galeriaTotal h2 {
+    color: #c61075;
+}
+
+.galeria {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 100px 0;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 17em;
+    max-width: 100%;
+}
+
+.box:nth-child(1) {
+    grid-column-start: span 1;
+}
+
+@media (min-width: 720px) {
+    .galeriaTotal {
+        background-color: #c61075;
+    }
+
+    .galeriaTotal h2 {
+        color: #510a3a;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box:nth-child(1) {
+        grid-column-start: span 2;
+    }
+
+    .box:nth-child(4) {
+        grid-column-start: span 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    .galeriaTotal {
+        background-color: #510a3a;
+    }
+
+    .galeriaTotal h2 {
+        color: #fda5e1;
+    }
+}

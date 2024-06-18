@@ -1,0 +1,13 @@
+.hero {
+    padding:4% 10%;
+    text-align: end;
+    background-image: linear-gradient(
+        0deg,
+        rgba(55, 5, 38, 0.4),
+        rgba(55, 5, 38, 0.4)
+    ), url('media/heroDulces.jpg');
+}
+
+.hero h4{
+    color:#ffd1f0 ;
+}
